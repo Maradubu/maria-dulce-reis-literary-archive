@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Subscriber",
+  "type": "object",
+  "required": [
+    "subscriberId",
+    "email",
+    "status",
+    "createdAt"
+  ],
+  "properties": {
+    "subscriberId": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "active",
+        "unsubscribed",
+        "bounced"
+      ]
+    },
+    "consentAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "confirmedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "unsubscribedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "preferredLanguage": {
+      "enum": [
+        "pt",
+        "en",
+        "both"
+      ]
+    },
+    "confirmationTokenHash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "additionalProperties": false
+}

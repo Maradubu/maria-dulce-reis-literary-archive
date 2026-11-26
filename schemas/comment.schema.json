@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reader Comment",
+  "type": "object",
+  "required": [
+    "commentId",
+    "workId",
+    "displayName",
+    "body",
+    "status",
+    "createdAt"
+  ],
+  "properties": {
+    "commentId": {
+      "type": "string"
+    },
+    "workId": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 3000
+    },
+    "status": {
+      "enum": [
+        "pending",
+        "approved",
+        "rejected",
+        "spam"
+      ]
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "moderatedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "moderatedBy": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reply": {
+      "type": [
+        "object",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

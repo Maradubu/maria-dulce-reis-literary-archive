@@ -1,0 +1,306 @@
+{
+  "author": "Maria Dulce Reis",
+  "catalogueVersion": 1,
+  "note": "Metadata index only. Full original manuscripts have not yet been migrated into this repository.",
+  "works": [
+    {
+      "id": "001",
+      "title": {
+        "pt": "Eu Quis Ir ao Futuro",
+        "en": "I Wanted to Go to the Future"
+      },
+      "date": "2015-11-13",
+      "dateSource": "13 November 2015",
+      "genre": "Allegorical tale",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "publication": {
+        "pt": "Prosa Agridoce, Edições Horus",
+        "en": null
+      },
+      "notes": "Portuguese appears to be the publication source; confirm whether it is the original language."
+    },
+    {
+      "id": "002",
+      "title": {
+        "pt": "Uma Aurora de Luz",
+        "en": "Dawn of Light"
+      },
+      "date": "2025-11-28",
+      "dateSource": "28 November 2025",
+      "genre": "Poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "notes": "English phrase 'Blessed is Gaonese poetry' requires author confirmation."
+    },
+    {
+      "id": "003",
+      "title": {
+        "pt": "Quando Romper Não É Perder",
+        "en": "When Breaking Away Isn’t Losing"
+      },
+      "date": "2025-10-22",
+      "dateSource": "22 October 2025",
+      "genre": "Poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "004",
+      "title": {
+        "pt": "Ofereça Amor Como Presente",
+        "en": "Offer Love as a Gift"
+      },
+      "date": "2025-12-16",
+      "dateSource": "16 December 2025",
+      "genre": "Reflective prose poem",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "notes": "English rendering of 'Natal é quando um homem quiser' may be intentionally literal; preserve original."
+    },
+    {
+      "id": "005",
+      "title": {
+        "pt": "Vive a Vida Devagar",
+        "en": "Live Life Slowly"
+      },
+      "date": "2026-10-28",
+      "dateSource": "28 October 2026",
+      "genre": "Reflective poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "006",
+      "title": {
+        "pt": "Não Falta Tempo, Falta Vontade",
+        "en": "It's Not a Lack of Time, It's a Lack of Willpower"
+      },
+      "date": "2026-10-25",
+      "dateSource": "25 October 2026",
+      "genre": "Reflective prose / philosophical essay",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "007",
+      "title": {
+        "pt": "Ser Uma Fortaleza",
+        "en": "Being a Fortress"
+      },
+      "date": "2026-10-18",
+      "dateSource": "18 October 2026",
+      "genre": "Reflective poetry / prose poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "notes": "One English sentence has a possible grammar issue; preserve original."
+    },
+    {
+      "id": "008",
+      "title": {
+        "pt": "Transformação Poderosa",
+        "en": "Powerful Transformation"
+      },
+      "date": "2026-10-14",
+      "dateSource": "14 October 2026",
+      "genre": "Reflective prose / inspirational writing",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "notes": "Portuguese contains a sentence absent from supplied English version; confirm whether omission is intentional."
+    },
+    {
+      "id": "009",
+      "title": {
+        "pt": "A Ponte",
+        "en": "The Bridge"
+      },
+      "date": "2026-10-03",
+      "dateSource": "3 October 2026",
+      "genre": "Reflective prose / prose poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "010",
+      "title": {
+        "pt": "Graças a Deus Cresci",
+        "en": "Thank God I Grew Up"
+      },
+      "date": "2026-10-03",
+      "dateSource": "3 October 2026",
+      "genre": "Autobiographical reflective prose",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "011",
+      "title": {
+        "pt": "Saudade",
+        "en": "Longing"
+      },
+      "date": "2026-09-30",
+      "dateSource": "30 September 2026",
+      "genre": "Autobiographical reflective poetry / prose poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "012",
+      "title": {
+        "pt": "Essa Sou Eu",
+        "en": "That's Me"
+      },
+      "date": "2026-09-24",
+      "dateSource": "24 September 2026",
+      "genre": "Autobiographical reflective poetry / prose poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "013",
+      "title": {
+        "pt": "Hoje, Só Preciso da Água da Chuva",
+        "en": "Today, I Only Need Rainwater"
+      },
+      "date": "2026-09-23",
+      "dateSource": "23 September 2026",
+      "genre": "Reflective prose / philosophical writing",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "notes": "English phrase 'a shred of shame' differs from the Portuguese idiom; preserve both."
+    },
+    {
+      "id": "014",
+      "title": {
+        "pt": "Escolho Não Desistir",
+        "en": "I Choose Not to Give Up"
+      },
+      "date": "2026-09-21",
+      "dateSource": "21 September 2026",
+      "genre": "Reflective poetry / philosophical prose",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "015",
+      "title": {
+        "pt": "Compostura",
+        "en": "Composure"
+      },
+      "date": "2026-09-16",
+      "dateSource": "16 September 2026",
+      "genre": "Reflective prose / philosophical writing",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "016",
+      "title": {
+        "pt": "Então, Vamos Rezar",
+        "en": "So, Let's Pray"
+      },
+      "date": null,
+      "dateSource": {
+        "pt": "09/06/26",
+        "en": "September 6, 2026"
+      },
+      "genre": "Spiritual and philosophical reflection",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued",
+      "notes": "Date conflict: Portuguese date format indicates 9 June 2026; English spells out September 6, 2026. Confirm before setting canonical date."
+    },
+    {
+      "id": "017",
+      "title": {
+        "pt": "As Minhas Pessoas",
+        "en": "My People"
+      },
+      "date": "2026-09-05",
+      "dateSource": "5/09/26",
+      "genre": "Reflective poetry / prose poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "018",
+      "title": {
+        "pt": "Quem Sou Eu?",
+        "en": "Who Am I?"
+      },
+      "date": "2026-09-05",
+      "dateSource": "05/09/26",
+      "genre": "Autobiographical reflective poetry / prose poetry",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "019",
+      "title": {
+        "pt": "Evolução",
+        "en": "Evolution"
+      },
+      "date": "2026-09-02",
+      "dateSource": "02/09/26",
+      "genre": "Philosophical reflection / reflective prose",
+      "languages": [
+        "pt",
+        "en"
+      ],
+      "status": "catalogued"
+    }
+  ]
+}

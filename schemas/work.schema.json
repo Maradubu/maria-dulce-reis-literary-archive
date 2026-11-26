@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Literary Work",
+  "type": "object",
+  "required": [
+    "workId",
+    "status",
+    "category",
+    "languages",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "workId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "published",
+        "archived"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "pt",
+          "en"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "publicationDate": {
+      "type": "string",
+      "format": "date"
+    },
+    "commentsEnabled": {
+      "type": "boolean"
+    },
+    "notifySubscribers": {
+      "type": "boolean"
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "publishedAt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "createdBy": {
+      "type": "string"
+    },
+    "updatedBy": {
+      "type": "string"
+    },
+    "versions": {
+      "type": "object",
+      "properties": {
+        "pt": {
+          "$ref": "#/$defs/languageVersion"
+        },
+        "en": {
+          "$ref": "#/$defs/languageVersion"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "languageVersion": {
+      "type": "object",
+      "required": [
+        "title",
+        "body"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "editorialNotes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
