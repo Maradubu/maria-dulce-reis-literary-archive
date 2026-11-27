@@ -13,7 +13,7 @@ A bilingual Portuguese/English author portfolio, literary archive and publishing
 
 ## Initial technical direction
 
-- Frontend: HTML, CSS and JavaScript (start simple; introduce a framework only if justified).
+- Frontend: HTML, CSS and JavaScript.
 - Hosting and media: Amazon S3 and CloudFront.
 - Authentication: Amazon Cognito.
 - API: Amazon API Gateway and AWS Lambda.
