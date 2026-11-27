@@ -32,18 +32,3 @@ A bilingual Portuguese/English author portfolio, literary archive and publishing
 - `docs/` — project, architecture, security and implementation decisions.
 - `tests/` — future automated tests.
 
-## Important content-preservation rule
-
-Original manuscripts must never be silently corrected or overwritten. Portuguese and English manuscripts are stored separately. Editorial corrections, if requested, must be saved as separate edited versions.
-
-The current `content/catalogue.json` is a metadata index, not a complete copy of the manuscripts. Add the full original texts to the relevant language folders as they are transferred into the repository.
-
-## Getting started
-
-1. Open this folder in Visual Studio Code.
-2. Read `docs/project-plan.md`.
-3. Read `docs/architecture.md` and `docs/security.md`.
-4. Review `content/catalogue.json` and resolve the outstanding editorial queries.
-5. Begin the public website locally before provisioning AWS resources.
-
-No AWS resources are created by this starter project.
