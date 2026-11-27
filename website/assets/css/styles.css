@@ -1,0 +1,518 @@
+
+/* =========================================
+   MARIA DULCE REIS — LITERARY ARCHIVE
+   Shared visual identity
+   ========================================= */
+
+:root {
+    /* Colour palette */
+    --colour-forest: #244638;
+    --colour-ivory: #F6F2E9;
+    --colour-paper: #FFFCF6;
+    --colour-terracotta: #B96F55;
+    --colour-gold: #B49A63;
+
+    --colour-ink: #292A27;
+    --colour-muted: #77766F;
+    --colour-border: #DED9CE;
+
+    /* Typography */
+    --font-heading: "Cormorant Garamond", Georgia, serif;
+    --font-body: "Inter", Arial, sans-serif;
+
+    /* Layout */
+    --content-width: 1160px;
+    --page-padding: 24px;
+
+    /* Effects */
+    --transition: 0.3s ease;
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--colour-ivory);
+    color: var(--colour-ink);
+    font-family: var(--font-body);
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Typography */
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    font-weight: 500;
+    color: var(--colour-forest);
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: clamp(3.5rem, 7vw, 6rem);
+}
+
+h2 {
+    font-size: clamp(2.5rem, 5vw, 3.8rem);
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.eyebrow {
+    color: var(--colour-terracotta);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+/* Shared layout */
+
+.container {
+    width: min(
+        var(--content-width),
+        calc(100% - 2 * var(--page-padding))
+    );
+    margin-inline: auto;
+}
+
+.section {
+    padding: 90px 0;
+}
+
+.section-header {
+    margin-bottom: 40px;
+}
+
+.section-header h2 {
+    margin-top: 10px;
+}
+
+.section-intro {
+    max-width: 550px;
+    color: var(--colour-muted);
+}
+
+/* Top information bar */
+
+.topbar {
+    border-bottom: 1px solid var(--colour-border);
+    padding: 10px 0;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--colour-muted);
+}
+
+.topbar-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Navigation */
+
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(246, 242, 233, 0.96);
+    border-bottom: 1px solid var(--colour-border);
+    backdrop-filter: blur(12px);
+}
+
+.navigation {
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.site-logo {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--colour-forest);
+    line-height: 1.1;
+}
+
+.site-logo small {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 0.6rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--colour-muted);
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 0.75rem;
+    color: var(--colour-ink);
+    transition: color var(--transition);
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--colour-terracotta);
+}
+
+.language-switch {
+    border: 1px solid var(--colour-border);
+    padding: 9px 13px;
+    background: transparent;
+    color: var(--colour-forest);
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+/* Buttons */
+
+.button {
+    display: inline-block;
+    padding: 13px 20px;
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    transition: all var(--transition);
+}
+
+.button-primary {
+    background: var(--colour-forest);
+    color: var(--colour-paper);
+}
+
+.button-primary:hover {
+    background: var(--colour-terracotta);
+}
+
+.button-secondary {
+    border: 1px solid var(--colour-forest);
+    color: var(--colour-forest);
+}
+
+.button-secondary:hover {
+    background: var(--colour-forest);
+    color: var(--colour-paper);
+}
+
+/* Hero */
+
+.hero {
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.hero h1 {
+    margin: 24px 0;
+}
+
+.hero-description {
+    max-width: 560px;
+    color: var(--colour-muted);
+    font-size: 1rem;
+    line-height: 1.9;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 32px;
+}
+
+/* Literary quotation */
+
+.quote-section {
+    padding: 75px 0;
+    background: var(--colour-forest);
+    color: var(--colour-ivory);
+    text-align: center;
+}
+
+.quote-section blockquote {
+    max-width: 850px;
+    margin: 0 auto 20px;
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.3;
+}
+
+.quote-credit {
+    color: #D6CBB6;
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+/* Writing cards */
+
+.writing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.writing-card {
+    padding: 28px;
+    background: var(--colour-paper);
+    border: 1px solid var(--colour-border);
+    transition: transform var(--transition);
+}
+
+.writing-card:hover {
+    transform: translateY(-4px);
+}
+
+.writing-card h3 {
+    margin: 18px 0 12px;
+}
+
+.writing-card p {
+    color: var(--colour-muted);
+    font-family: var(--font-heading);
+    font-size: 1.15rem;
+}
+
+.writing-meta {
+    color: var(--colour-terracotta);
+    font-size: 0.65rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+/* Footer */
+
+.site-footer {
+    padding: 55px 0;
+    background: var(--colour-forest);
+    color: var(--colour-ivory);
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.site-footer .site-logo {
+    color: var(--colour-ivory);
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    font-size: 0.75rem;
+}
+
+/* Responsive layout */
+
+@media (max-width: 800px) {
+
+    .navigation {
+        flex-wrap: wrap;
+        padding: 18px 0;
+    }
+
+    .nav-links {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .hero {
+        padding: 70px 0;
+    }
+
+    .writing-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-inner {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 520px) {
+
+    :root {
+        --page-padding: 18px;
+    }
+
+    .writing-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding: 55px 0;
+    }
+
+    .section {
+        padding: 65px 0;
+    }
+
+    .topbar-inner {
+        font-size: 0.55rem;
+    }
+}
+
+/* =========================================
+   BIOGRAPHY PAGE
+   ========================================= */
+
+
+.page-intro {
+    padding: 35px 0 35px;
+    border-bottom: 1px solid var(--colour-border);
+}
+
+.page-intro .eyebrow {
+    display: block;
+    margin-bottom: 22px;
+}
+
+.page-intro h1 {
+    margin: 0 0 22px;
+}
+
+.page-intro p {
+    max-width: 600px;
+    color: var(--colour-muted);
+    font-size: 1.05rem;
+}
+
+/* Biography */
+
+.biography-section {
+    padding: 35px 0 65px;
+}
+
+.biography-layout {
+    display: block;
+}
+
+.biography-content {
+    width: 100%;
+    max-width: 760px;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.biography-content section {
+    margin-bottom: 55px;
+    scroll-margin-top: 120px;
+}
+
+.biography-content h2 {
+    margin: 14px 0 30px;
+}
+
+.biography-content p {
+    color: var(--colour-muted);
+    line-height: 2;
+    font-size: 0.95rem;
+}
+
+.biography-content .eyebrow {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.biography-quote {
+    margin: 40px 0;
+    padding: 35px;
+    border-left: 3px solid var(--colour-terracotta);
+    background: var(--colour-paper);
+    color: var(--colour-forest);
+    font-family: var(--font-heading);
+    font-size: 2rem;
+}
+
+.biography-end {
+    padding: 60px 0 55px;
+    border-top: 1px solid var(--colour-border);
+}
+
+.biography-end .eyebrow {
+    display: block;
+    margin-bottom: 22px;
+}
+
+.biography-end h2 {
+    margin: 0 0 30px;
+    line-height: 1.15;
+}
+
+@media (max-width: 800px) {
+    .biography-layout {
+        display: block;
+    }
+
+    .biography-content {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+
+    .biography-content section {
+        margin-bottom: 45px;
+    }
+}
+/* Consistent spacing for the final biography section */
+
+/* Values and humanity — editorial spacing */
+
+#humanity {
+    padding-top: 25px;
+}
+
+#humanity .eyebrow {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#humanity h2 {
+    margin: 0 0 45px;
+    line-height: 1.15;
+}
+
+#humanity h2 + p {
+    margin-top: 0;
+}
